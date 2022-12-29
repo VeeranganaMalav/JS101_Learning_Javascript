@@ -1,0 +1,21 @@
+let name = "Veerangana Malav";
+let school = "Modern Senior Secondary School";
+let grade = "A";
+let section = "D";
+let rollno = 48;
+let marks = [91, 93, 96];
+
+console.log("|--------------------------------------------------|");
+console.log("|              REPORT      CARD                    |");
+console.log("|--------------------------------------------------|");
+console.log("|NAME   : " + name + "        " + "SECTION: " + section +"       |");
+console.log("|SCHOOL : " + school + "           |");
+console.log("|GRADE  : " + grade + "                                        |");
+console.log("|ROLL NO: " + rollno + "                                       |");
+console.log("|--------------------------------------------------|");
+console.log("|             SUBJECT                |     MARKS   |");
+console.log("|--------------------------------------------------|");
+console.log("|          SOCIAL SCIENCE     " + "       |      " + marks[0] + "     |");
+console.log("|             SCIENCE        " + "        |      " + marks[1] + "     |");
+console.log("|              MATHS         " + "        |      " + marks[2] + "     |");
+console.log("|--------------------------------------------------|");
